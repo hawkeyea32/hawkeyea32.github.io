@@ -1,0 +1,102 @@
+@media only screen and (max-width: 960px) {
+
+  .navbar {
+    height: 100px;
+    padding-left: 0px;
+    justify-content: center;
+  }
+
+  .navbar-contents {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+  }
+  
+  .pagename {
+    color: #D9D9D9;
+    font-size: 30px;
+    font-family: 'Vidaloka', serif;
+    margin: 0;
+    padding: 0;
+    padding-bottom: 10px;
+  }
+  
+  .undertitle {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+  }
+  
+  .line-container {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    padding-left: 50px;
+    padding-right: 20px;
+    flex-grow: 1;
+  }
+  
+  .line {
+    box-sizing: border-box;
+    background-color: #D9D9D9;
+    height: 1px;
+    border: none;
+    width: 100%;
+  }
+  
+  .author {
+    color: #D9D9D9;
+    font-size: 10px;
+    font-family: 'Vidaloka', serif;
+    margin: 0;
+    padding: 0;
+  }
+
+  .page-contents {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items:  flex-start;
+    justify-content: flex-start;
+    top: 0;
+    left: 0;
+    min-height: 100vh;
+    width: 100%;
+    padding-top: 100px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .story {
+    color: #D9D9D9;
+    white-space: normal;
+    white-space: pre-wrap;
+    font-size: 17px;
+    font-family: 'Bona Nova', serif;
+  }
+  
+  .back {
+    color: #FF6157;
+    font-size: 17px;
+    font-family: 'Bona Nova', serif;
+    transition: 0.5s ease-in-out;
+    cursor: pointer;
+    text-decoration: none;
+  }
+  
+  .back:hover {
+    text-decoration: underline;
+  }
+
+
+
+
+
+} /* END OF MOBILE RULES */
